@@ -1,0 +1,17 @@
+{
+  "name": "aws-sqs-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "send": "node src/send.js",
+    "receive": "node src/receive.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1378.0",
+    "dotenv": "^16.0.3"
+  }
+}
